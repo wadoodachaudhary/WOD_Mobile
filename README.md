@@ -1,2 +1,2 @@
 # WOD_Mobile
-Quran Word of teh Day iOS application for Al-Furqan
+Quran Word of the Day (WOD) iOS application for Al-Furqan
