@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Word</key>
+	<string>Name of Word</string>
+	<key>Transliteration</key>
+	<string>Transliteration of Word</string>
+	<key>Origin</key>
+	<string>Origin of Word</string>
+	<key>Audiofile</key>
+	<string>Audio File of Word</string>
+	<key>Meanings</key>
+	<array>
+		<dict>
+			<key>Meaning</key>
+			<string>Meaning 1</string>
+			<key>Language</key>
+			<string>Language of Meaning 1</string>
+                	<key>Examples</key>
+			<array>
+				<dict>
+					<key>Example</key>
+					<string>Example 1.1</string>
+					<key>Reference</key>
+					<string>Reference of Example 1.1</string>
+				</dict>
+				<dict>
+					<key>Example</key>
+					<string>Example 1.2</string>
+					<key>Reference</key>
+					<string>Reference of Example 1.2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Meaning</key>
+			<string>Meaning 2</string>
+			<key>Language</key>
+			<string>Language of Meaning 2</string>
+                	<key>Examples</key>
+			<array>
+				<dict>
+					<key>Example</key>
+					<string>Example 2.1</string>
+					<key>Reference</key>
+					<string>Reference of Example 2.1</string>
+				</dict>
+				<dict>
+					<key>Example</key>
+					<string>Example 2.2</string>
+					<key>Reference</key>
+					<string>Reference of Example 2.2</string>
+				</dict>
+
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+Select * from Word where id=6;
+Select * from Token where chapter_no=1 and verse_no=1 and token_no=4;
+Select w.* from Word w, Token t where token_simple=word_simple and chapter_no=3 and verse_no=77 and token_no=26
+Select * from Meaning
+Select * from Segment Limit 10;
+
+
+Alter 
+Update Verse Set size='0'
+commit;
+
+Select count(*) from Word;
+Select count(*) from Token;
+
+Select * from Token Limit 10;
+
+
+
+;
+
+
+
+Select * from Verse where Size <> '0'
+
+Select 250 as size from Verse where chapter_no=72 and verse_no=23
+
+
+;
+
+

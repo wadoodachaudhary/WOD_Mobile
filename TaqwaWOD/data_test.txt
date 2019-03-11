@@ -1,0 +1,12 @@
+INSERT INTO language VALUES (1,'English'),(2,'Urdu'),(3,'Spanish')
+
+INSERT INTO example VALUES (1,'فَاَبٰٓی اَکْثَرُ النَّاسِ اِلّا کُفُوْرًا : (17:90) Most people would refuse to accept anything (everything) but disbelief',NULL),(2,'فَاَبٰٓی اَکْثَرُ النَّاسِ اِلّا کُفُوْرًا :) Most people would refuse to accept anything (everything) but disbelief','17:90'),(3,'وَھُوَ بِالْاُفُقِ الْاَعْلٰی : (53:8) And (He revealed His Word) when he was in the highest part of the horizon',NULL),(4,'وَھُوَ بِالْاُفُقِ الْاَعْلٰی : ) And (He revealed His Word) when he was in the highest part of the horizon','53:8'),(5,'مَا اَلَتْنَاھُمْ مِنْ عَمَلِھِمْ مِنْ شَیْءٍ : (52:22) We will not diminish to them aught of the recompense of their work',NULL),(6,'مَا اَلَتْنَاھُمْ مِنْ عَمَلِھِمْ مِنْ شَیْءٍ : ) We will not diminish to them aught of the recompense of their work','52:22'),(7,'وَالْقَمَرِ اِذٰا تَلٰھَا : And by the moon when it (the moon) follows it (the sun)(91:3)',NULL), (8,'وَالْقَمَرِ اِذٰا تَلٰھَا : And by the moon when it (the moon) follows it (the sun)','91:3');
+
+
+INSERT INTO meaning VALUES (1,1,'He refused; or refrained, abstained or held back, of his own free will.',1),(2,2,'He went away at random or heedlessly, and went away in the آفَاق (region of the land); he went away into the country.',1),(3,3,'It (a thing) decreased; diminished; lessened; became defectie, deficient, incomplete or imperfect.',1),(4,4,'تَلَوْتُہُ .I followed or went after him or it',1);
+
+INSERT INTO word VALUES (1,'اَؑبَی',NULL,'unknown','abi'),(2,'اَفَقَ',NULL,'unknown','afaq'),(3,'اَلَتَ',NULL,'unknown','alat'),(4,'تَلاَ',NULL,'unknown','tala');
+
+INSERT INTO wordexample VALUES (1,1,1,0),(2,1,2,1),(3,2,3,0),(4,2,4,1),(5,3,5,0),(6,3,6,1),(7,4,7,0),(8,4,8,1);
+
+

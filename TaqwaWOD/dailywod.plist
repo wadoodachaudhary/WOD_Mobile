@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Word</key>
+	<string>قاعدة بيانات</string>
+	<key>PlanDate</key>
+	<string>04/27/12</string>
+	<key>Transliteration</key>
+	<string>Qaida Biyannat</string>
+	<key>Origin</key>
+	<string>Technology, Computer Sciences</string>
+	<key>Audiofile</key>
+	<string>Database.mp3</string>
+	<key>Meanings</key>
+	<array>
+		<dict>
+			<key>Meaning</key>
+			<string>A collection of data arranged for ease and speed of search and retrieval by a computer. Any large store of information.</string>
+			<key>Language</key>
+			<string>English</string>
+			<key>Examples</key>
+			<array>
+				<dict>
+					<key>Example</key>
+					<string>: a database of knowledge. Students must first give their permission for their work to be copied into the database.</string>
+					<key>Reference</key>
+					<string>Merriam</string>
+				</dict>
+				<dict>
+					<key>Example</key>
+					<string>All of our customer information was kept in a database.</string>
+					<key>Reference</key>
+					<string>World Dictionary</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Meaning</key>
+			<string>base de données. est un lot dinformations stockées dans un dispositif informatique. Les technologies existantes permettent dorganiser et de structurer la base de données de manière à pouvoir facilement manipuler le contenu et stocker efficacement de très grandes quantités d informations.</string>
+			<key>Language</key>
+			<string>French</string>
+			<key>Examples</key>
+			<array>
+				<dict>
+					<key>Example</key>
+					<string>Secundo, une banque de données centrale est très importante.</string>
+					<key>Reference</key>
+					<string>French to English Dictionary</string>
+				</dict>
+				<dict>
+					<key>Example</key>
+					<string>Activez ce bouton radio pour justifier la disposition des champs de données.</string>
+					<key>Reference</key>
+					<string>OpenOffice.org</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Meaning</key>
+			<string>. کمپیوٹر میں ترتیب دی ہوئی معلومات جو حسب ضرورت اخز کی جا سکے ، مفروضات ، امورِ معلومہ ، حقائق  اعداد و شمار ڈیٹابیس.</string>
+			<key>Language</key>
+			<string>Urdu</string>
+			<key>Examples</key>
+			<array>
+				<dict>
+					<key>Example</key>
+					<string>ڈیٹابیس بنانا کے متعلق بہت ساری معلومات اس صفحہ پر موجود ہے</string>
+					<key>Reference</key>
+					<string>Blog, Biyaz Bilal</string>
+				</dict>
+				<dict>
+					<key>Example</key>
+					<string>نیٹ گردی کے دوران پنجاب لاز آن لائن کے نام سے ایک ویب سائٹ نظر سے گزری جس میں1860 سے آج کی تاریخ تک تمام قوانین اور ترمیم شدہ قوانین یونیکوڈ فارمیٹ میں دیے گئے ہیں</string>
+					<key>Reference</key>
+					<string>Urdu Nama</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+DELETE from emailplan 
+DELETE from example 
+DELETE from language 
+DELETE from meaning 
+DELETE from relatedword 
+DELETE from subscriber 
+DELETE from user  
+DELETE from word  
+DELETE from wordexample 
