@@ -1,0 +1,8 @@
+==================================================================
+نَبَتَ	[aor. يَنْبُتُ inf. noun نُبْتًا and نَبَاتًا ] نَبَتَ الْبَقْلُ : The herb
+ grew, came out of the earth. 
+Example:VerseToken: It produces oil (23:21).
+Example:VerseToken 2:262 : Which grows seven ears (2:262). 
+Example:VerseToken : And caused her to grow an excellent growth (3:38). نَبَاتٌ : Growth; vegetation. 
+Example:VerseToken : That We may bring forth thereby grain and vegetation (78: 16).
+==================================================================

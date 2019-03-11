@@ -1,0 +1,441 @@
+<Word> 
+<Text>جعل</Text>
+<MeaningSimple>He made. Also, to create, make.</MeaningSimple>
+<Transliteration>Jaal</Transliteration>
+<Status>DONE</Status>
+	<Meaning> 
+		<Definition>To Create. He created.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(6:1:7:9) He created all kinds of darkness and light (6:1) </Example>
+		<Example>Token(21:30:11:14) And We have created of water everything living; (21:30)</Example>
+ 	</Meaning> 
+	<Meaning> 
+		<Definition>Making a thing. He made a thing. </Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example> Token(16:72:1:6) He (God) has made for you of your own selves wives (16:72)</Example>
+	</Meaning>
+	<Meaning> 
+		<Definition>To prepare.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(65:2:28:30) He will prepare or make for him a way of escape (65:3)</Example>
+		<Example>Token(65:4:24:28) He (God) will prepare for him or He will make his circumstances easy to him (65:5)</Example>
+	</Meaning>  
+	<Meaning> 
+		<Definition>To appoint, to constitute. He appointed or constituted.</Definition>
+		<Reference>Ghulam Farid</Reference>
+ 		<Example>Token(19:30:7:8) And He has made me a Prophet (19:31)</Example> 
+	</Meaning> 
+	<Meaning> 
+		<Definition> To make a thing in a particular state or condition.</Definition> 
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(71:16:1:4) And He has made the moon in them to be as a light (71:17)</Example>
+		<Example>Token(71:16:5:7) And made the Sun a lamp!(71:17)</Example>
+	</Meaning> 
+	<Meaning> 
+		<Definition>He made a thing to be in an altered condition.</Definition> 
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(15:74:1:3) We made their upper part to be their lower part (15:75)</Example>
+	</Meaning> 
+	<Meaning>
+		<Definition>To pronounce. He pronounced a thing according to his own judgement.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(15:91:1:4) And they pronounced the Holy Quran to be lies(15:92)</Example>
+	</Meaning> 
+	<Meaning>
+		<Definition>To name. He called or named.</Definition>
+		<Reference>Ghulam Farid</Reference>
+ 		<Example>Token(43:19:1:7) And they have called the angels who are the servants of God females (43:20)</Example> 
+	</Meaning> 
+	<Meaning> 
+		<Definition>To believe in a certain way. He held or believed to be.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(16:57:1:3) And they hold or believe God to have daughters (16:58)</Example> 
+	</Meaning>
+	<Meaning> 
+		<Definition>He thought.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example> جعل بصرة بغداد He thought Basra to be Baghdad.</Example>
+	</Meaning> 
+	<Meaning> 
+		<Definition>He made known, plain or perspicuous.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(43:4:2:4) We have made it known etc. as an Arabic Qur'an (43:4);</Example> 
+	</Meaning> 
+	<Meaning> 
+		<Definition>He exalted or ennobled.</Definition> 
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(2:143:2:4) And We have exalted you as a nation conforming to the best mean (2:144)</Example>
+	</Meaning> 
+	<Meaning> 
+		<Definition>He put or laid, exalted.</Definition> 
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(57:27:12:18) And We have placed or put into the hearts of those who followed him pity and compassion (57:28)</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>He began.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example> جعل يكتب   He began to write.</Example>
+	</Meaning> 
+	<Meaning> 
+		<Definition>He made or gave.</Definition> 
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(19:50:5:8) And We gave them good name (19:51)</Example>
+		<Example> جاعل (act. part.); maker or making Token(3:55:13:15) And I will make those who follow thee (3:56)</Example>
+	</Meaning> 
+	<Meaning> 
+		<Definition>To regard, consider.</Definition> 
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(38:5:1:4) Does he regard all the gods to be one God (38:6)</Example>
+	</Meaning> 
+</Word>
+<Word> 
+<Text>تلىا</Text>
+<MeaningSimple>To follow.</MeaningSimple>
+<Transliteration>Talaaha</Transliteration>
+<Status>DONE</Status>
+	<Meaning> 
+		<Definition>I followed or went after him or it.</Definition>
+		<Reference>al-Islam</Reference>
+		<Example> Token(91:2:1:3) And by the moon when it (the moon) follows it (the sun)(91:3) </Example>
+	</Meaning> 
+</Word>
+<Word> 
+<Text>الت</Text>
+<MeaningSimple>Diminish, lessen.</MeaningSimple>
+<Transliteration>Alat</Transliteration>
+<Status>DONE</Status>
+	<Meaning> 
+		<Definition>It (a thing) decreased; diminished; lessened; became defective, deficient, incomplete or imperfect.</Definition>
+		<Reference>al-Islam</Reference>
+		<Example>Token(52:21:9:14) We will not diminish to them aught of the recompense of their work.</Example>
+	</Meaning> 
+</Word>
+<Word> 
+<Text>افق</Text>
+<MeaningSimple>Horizon, Away.</MeaningSimple>
+<Transliteration>Ufaq</Transliteration>
+<Status>DONE</Status>
+	<Meaning> 
+		<Definition>He went away at random or heedlessly, and went away in the آفَاق (region of the land); he went away into the country.</Definition>
+		<Reference>al-Islam</Reference>
+		<Example>Token(53:7:1:3) And He revealed His Word when he was in the highest part of the horizon.</Example>
+	</Meaning> 
+</Word>
+<Word> 
+<Text>اجر</Text>
+<MeaningSimple>Reward.</MeaningSimple>
+<Transliteration>Ajar</Transliteration>
+<Status>DONE</Status>
+	<Meaning> 
+		<Definition>A recompense or reward for one has done. He recompensed him or rewarded him for what he had done (اجر علي ما فعل); he served him for hire or pay; he became his hired man; he let him on hire or for pay. He let the house on hire(اجر الدار)</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(28:27:9:11) On condition that thou hire thyself to me or that thou serve me on hire (28:27).</Example>
+		<Example>Token(28:26:3:4) O my father, hire him (28:26).</Example>
+	</Meaning> 
+<Meaning> 
+		<Definition>Dowry, or nuptial gift.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(4:24:16:22) Give them their dowries (4:24).</Example>
+</Meaning> 
+</Word>
+<Word>
+<Text>ابىا</Text>
+<MeaningSimple>To refuse.</MeaningSimple>
+<Transliteration>Aba</Transliteration>
+<Status>DONE</Status>
+	<Meaning> 
+		<Definition>He refused; or refrained, abstained or held back, of his own free will.</Definition>
+		<Reference>al-Islam</Reference>
+		<Example>Token(17:89:16:22) Most people would refuse to accept anything (everything) but disbelief.</Example>
+	</Meaning> 
+</Word>
+<Word>
+<Text>حدث</Text>
+<Status>DONE</Status>
+<Root>Something new or recent, it (a thing) came into existence, began to be, originated, had a beginning, existed newly for the first time. To relate discourse, story or report or narration or statement or tale. A novelty or new thing, an innovation, a thing not known before, and particularly relating to Islam (i.e. to matters of religious doctrines or practices or the like). Tiding, talk, discourse, tale, story. To cause to occur, bring something new to pass, introduce that which is lately remembered or renewed.</Root>
+<MeaningSimple>Something new, discourse, story.</MeaningSimple>
+<Transliteration>Hadatha</Transliteration>
+<Meaning>
+		<Definition>New or recent; it (a thing) came into existence; it began to be; it had a beginning; it originated; it existed newly for the first time, not having been before. A novelty or new thing; an innovation; a thing not known before . New, recent; existing newly, for the first time not having been before‫.‬ Brought into existence for the first time, not having been before; originated; invented; innovated.  اَمْر مُحْدَثَ :An innovation. مُحْدَثَاتُ الْاُمُوْرِ :Innovations; new things.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>When the word is mentioned with قَدُمَ it is written حَدُثَ as in the saying اَخَذَنِيْ َ مَا قَدُمَ وَمَاحَدُثَ: Old and new ideas and anxieties came into my mind.</Example>
+		<Example>اَحْدَثَه: He (God) brought it into existence; originated it; invented it; innovated it;</Example>
+		<Example>اَحْدَثَ حَدَثاََ: He originated an innovation.</Example>
+		<Example>Token(65:1:36:41): That Allah may bring about an event (65:2).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>To talk of it. He talked of it.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(18:70:8:12): Till I speak to thee concerning it; or should tell thee about it (18:71).</Example>
+		<Example>Token(2:76:13:18) Do you talk to them of what Allah has disclosed to you (2:77).</Example>
+		<Example>Token(93:11:1:4): And of the favor of God you talk or proclaim (93:12).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>A piece of information; news or tidings; a story or narration; a thing; an account; an information; a discourse; a tradition or saying of the Holy Prophet (حَدِيْ‫ث‬)or simply a saying; a thing talked of or narrated; subject of a story or talk.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(20:9:1:4) Has the story of Moses come to thee (20:10).</Example>
+		<Example>Token(4:140:18:22): Until they enter into some other discourse (4:141).</Example>
+		<Example>Token(45:6:7:12) In what announcement will they believe after Allah and His Signs (45:7).</Example>
+		<Example>Token(52:34:1:3): Then let them bring a saying like it (52:35).</Example>
+		<Example>Token(12:111:8:11): It is not a thing that has been forged (12:112).</Example>
+		<Example>آحَادِيْثُ(plural).Token(23:44:14:15): And We made them subject of talk or we made them stories (23:45).</Example>
+		<Example>Token(12:6:4:7): And He will teach you the interpretation of things (12:7).</Example>
+		<Example>Token(21:2:1:7): And no new admonition or reminder comes to them from their Lord (21:3).</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>حظ</Text>
+<Status>DONE</Status>
+<Root>To be in good circumstances. Part, Portion. Good fortune.</Root>
+<MeaningSimple>Portion.</MeaningSimple>
+<Transliteration>Hazza</Transliteration>
+	<Meaning>
+		<Definition>(aor. يََحَظُّ  inf. noun حَظُّ) He was or became rich, wealthy, or in a state of competence or sufficiency. Fortune; good fortune; a share, portion or lot or a share or portion of</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(4:11:5:8): For male is like the share of two females (4:12).</Example>
+		<Example>This word is used to describe the treasures of Qarun (Korah), probably the richest man described in Quran and Bible: Token(28:79:17:20) Truly, he possessed of mighty good fortune (28:80).</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>ذنۢب</Text>
+<Status>DONE</Status>
+<Root>(a) To track, make a tail, add appendix, follow closely, become spotted. (b) Commit offense, fault, sin, wrong, act of disobedience, transgression.</Root>
+<MeaningSimple>To commit sin. Crime.</MeaningSimple>
+<Transliteration>Zanaba</Transliteration>
+	<Meaning>
+		<Definition>(aor. يَذْنُبُ and يَذْنِبُ inf. noun)  اَذْنَبَ He committed a sin, crime, fault, frailty, shortcoming misdemeanor; natural failing; an offense or an act of disobedience whether intentional or committed through inadvertence. According to Imam Raghib ذَنْبُ means, such errors and mistakes as bring about a harmful result and render one liable to be called to account. It differs from اِثْمُ in being either intentional or committed through inadvertence; whereas ذَنْبُ is peculiarly intentional.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(3:16:6:8) And Thou forgive us our sins (3:17).</Example>
+		<Example>Plural is ذُنُوب and ذَنْبُ is also sometimes used as plural. Token(26:14:1:3) They have a charge or crime against me (26:15).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition> ذَنَبُ meaning a tail or in man the part of body corresponding to the tail. A horse having a long tail; a great bucket; a bucket full of water or nearly full of water; a lot, share or portion. Metaphorically it is applied to rain as well.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(51:60:5:8) Like the share of their fellows (51:60);</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>صراط</Text>
+<Status>DONE</Status>
+<Root>A path which is even, wide enough and can be trodden without difficulty.  A road or way or path. A long sword.</Root>
+<MeaningSimple>Path, way.</MeaningSimple>
+<Transliteration>Sirat</Transliteration>
+	<Meaning>
+		<Definition>Way, path, road. The correct path of religion.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(1:6:1:3) Guide us in the straight path (1:7).</Example>
+		<Example>Token(3:51:6:8) This is the straight road or path (3:52).</Example>
+		<Example>Token(37:23:6:7) The path to the fire (37:24).</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>اليم</Text>
+<Status>DONE</Status>
+<Root>To be in pain, suffer pain, express pain, grief or sorrow, to lament.</Root>
+<MeaningSimple>Pain.</MeaningSimple>
+<Transliteration>Aleem</Transliteration>
+	<Meaning>
+		<Definition>To be in pain, suffer pain. يَاْلَمُ inf. noun اَلَمُ. He was in pain; he suffered pain. اَلَمُ  Plural الاَمُ.  Pain; ache. اَلِْيمُ : Causing pain; painful; causing pain in the utmost degree.عَذَابُ اَلِْيمُ:</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Painful punishment.Token(3:91:18:20) For whom shall be a grievous punishment (3:92).</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>الاه</Text>
+<Status>DONE</Status>
+<Root>God, Deity.</Root>
+<Transliteration>Ilaha</Transliteration>
+<MeaningSimple>God, god.</MeaningSimple>
+	<Meaning>
+		<Definition>اَلِهَ aor. يَاْلَهُ inf. noun اُلُوْهَةً and اِلاَهَةٌ and اُلُوْهِثيةٌ  He served,worshipped or adored. An object of worship or adoration i.e. a god or deity;{(الِهَةٌ plural) اِلهَيْنِ : Two gods.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>اَلَّهَه: He reckoned him among gods. {اِلهٌ} and {اِلاَهٌ}:</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>To seek aid or succor.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>اَلِهَ اِلَيْهِ He took himself to him for refuge or protection;</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>To be confounded, perplexed; unable to see right course.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>اَلِهَ عَلىٔ فُلاَنٍ  He was or became vehemently affected with grief on account of such a one.</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>الله</Text>
+<Status>DONE</Status>
+<Root>Allah</Root>
+<MeaningSimple>Allah, God, the name of God in Islam.</MeaningSimple>
+<Transliteration>Allah</Transliteration>
+	<Meaning>
+		<Definition> اَللّهُ is the name of the Supreme Being Who is the sole possessor of all perfect attributes and is free from all defects. In the Arabic language, this word is never used for any other being or thing. No other language has a distinctive name for the Supreme Being. The names found in other languages are attributive or descriptive. اَللّهُ is always used in the singular. It is a simple substantive, not derived.
+		</Definition>
+		<Reference>Ghulam Farid</Reference>
+	</Meaning>      
+ 	<Meaning>
+		<Example>اَلهُمَّ is an expression used in prayer meaning يَا اَللّهُ the م being a substitute for يَا meaning, O God.</Example>
+		<Definition> Some say it is a proper name applied to the Being Who exists necessarily by Himself, comprising all the attributes of perfection, the ال being inseparable from it. Some say it is from اَلِهَ, either because minds are confounded or perplexed by the greatness or majesty of God or because He is the object of recourse for protection or aid. Some are of the opinion that it is from لاَهَ يَلِيْهُ which signifies height, others think that it is from لاَهَ يَلُوْهُ which signifies brightness, yet others are of the view that it is from the Syriac لاَ هاَ. But all these are mere speculations. The word اَللّهُ is derived from no other word, nor any other word is derived from it.
+		</Definition>
+		<Reference>Ghulam Farid</Reference>
+	</Meaning>
+</Word>
+<Word>
+<Text>ثمر</Text>
+<Status>DONE</Status>
+<Root>To bear fruit, fructify, get rich, increase. Fruit, wealth, possession, profit and income.</Root>
+<MeaningSimple>Fruit. Wealth.</MeaningSimple>
+<Transliteration>thamar</Transliteration>
+	<Meaning>
+		<Definition>aor. يَثْمُرُ inf. noun ثٌوْمُرُ and اَثْمَرَ . Literally, it means fruit. The fruit of trees; several kinds of fruits; the fruit which a tree produces whether it is eaten or not eaten.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>اَثَمَرَ الشَّجَرُ اَوْ ثَمَرَ الشَّجَرُ: The tree put forth its fruit or put forth its fruit yet unripe or began to put forth its fruit or bore fruit.</Example>
+		<Example>Look to its fruit when it bears fruit Token(6:99:33:35).</Example>
+		<Example>Whenever they are given a fruit therefrom Token(2:25:15:18).</Example>
+		<Example>And provide them with fruits Token(14:37:22:24).</Example>
+		<Example>شَجَرَهُ ثَمْرَاُء: A tree full of fruit.</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>Wealth. Abundance of wealth. Property or wealth increased and multiplied; gold and silver.profit (plural ثَمَراتٌَ)</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>ثَمَرَ: It (a man's wealth) became abundant.</Example>
+		<Example>ثَمَرَةُ مَالٍ: The increase of property.</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>A child or son; progeny or offspring; trees or shrubs (plural اَثْمَارٌ)</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>قُطِعَتْ ثَمَرَتُه:  His power of procreating was cut off.</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>عَقَلُُ ثَمْرَاُء: Fruitful intellect (opposed to عَقَلُُ عَقِيْم: barren intellect)</Definition>
+		<Reference>Ghulam Farid</Reference>
+	</Meaning>
+</Word>
+<Word>
+<Text>ختم</Text>
+<Status>NEW</Status>
+<Root>To seal, stamp, imprint or impress. To secure or protect oneself against a thing. To produce an impression or effect upon a thing. To reach the end of a thing. To cover over a thing. To turn away or avoid or shun someone or something. Not understand or prevent the heart from believing. To feign heedlessness.</Root>
+<Transliteration>khtm</Transliteration>
+<MeaningSimple>Seal, stamp, impression. To close, conclude. The signet-ring.</MeaningSimple>
+	<Meaning>
+		<Definition>aor. يَخْتِمُ inf. noun خَتْم and خِتَام . Commonly, it means a thing that is sealed, stamped, impressed or has been imprinted. خَتْم and طَبْع  signify the impressing of a thing with the engraving of signet and stamp; sometimes it means the producing of an impression or effect upon a thing from another thing; in consideration of the impress produced by the signet. A mark.
+		</Definition>
+		<Reference>Ghulam Farid</Reference>
+	<Example>خَتَمَ الشَّيْءَ اَوْخَتَمَ عَلَيْهِ: He sealed, stamped, impressed or imprinted the thing or he put the seal on it.</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>To reach end. To conclude. To close. The last of a company of men as also خَاتَم and خَاتِمُ. The last portion of anything that is drunk; admixture; result; the last draught; the end or last part or portion. The result and issue of a thing.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>خَتَمَ الشَّيْءَ: He reached the end of the thing.</Example>
+		<Example>اِنَّمَا الْاعْمَلُ بِخَوَاتِيْمِهَا: Actions are judged by their results.</Example>
+		<Example>خِتَامُه مِسْك: The sealing of it will be with musk; its result shall be the taste of musk; the last draught shall be in perfume like musk etc.</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>Sometimes it also means securing oneself from a thing and protecting oneself from it, as in protection by means of sealing upon writings.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>خَتَمَ عَلَيْكَ بَابَه: He sealed his door against thee i.e. he turned away from thee or avoided thee.</Example>
+		<Example>خَتَمَ لَكَ بَابَه: He sealed for thee his door i.e. he preferred thee to others.</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>To make one's mind or heart to be such as it understood not.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Allah has set a seal on their hearts and their ears (2:7) Token(2:7:1:6).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>Signet-ring. خَاتَم (Khatam) and خَاتِم(Khatim) and خَاتَمُُ (Khatmun) are almost synonymous. (Khatam) means a signet-ring.</Definition>
+		<Reference>Ghulam Farid</Reference>
+	</Meaning>
+	<Meaning>
+		<Definition>The best, the perfect. خَاتَم also means the best and perfect; embellishment or ornament; the hollow of the back of the neck.</Definition>
+		<Reference>alIslam.org</Reference>
+		<Example>But he is the Messenger of Allah and the seal of the Prophets (33:40) Token(33:40:8:12).</Example>
+		<Example>Hadhrat Ali(ra) is called Khatamul Auliya (see Tafsir Safi under the Quranic verse 33:41). Ibn Khaldun says this phrase is understood to mean that Ali was a perfect saint (see Muqaddama, Vol. II pp. 165-167).</Example>
+		<Example>An Arab poet, Hasan bin Wahab, called Abu Tamam (the compiler of Himasa) Khatamush-Shu'ara (see Wafiyatul A'ayan Li Ibn Khallikan, Vol. I, p. 123, Cairo).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>The first watering of a sown-field; the clay with which one seals or stamps upon a thing; the seal of virginity.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>زُفَّتْ اِلَيْكَ بِخِتَامِهَا:  She was conducted as a bride to thee with her seal of virginity.</Example>
+		<Example>Sealed beverage (83:25) Token(83:25:3:4).</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>ابق</Text>
+<Status>DONE</Status>
+<Root>To run away, flee, or go away. To confine or conceal or restrict oneself. Runaway or fugitive.</Root>
+<MeaningSimple>To run, to flee, to hide, to conceal oneself.</MeaningSimple>
+<Transliteration>Abaqa</Transliteration>
+	<Meaning>
+		<Definition>aor. یَاْبِقُ and یَاْبُقُ inf. noun. اَبْقاً and اَبَقًا and اِبَاقًا act part. اَبِق . It means to run away as in the runaway slave, or one running to safety or from capture, as fugitive. </Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(37:140:1:5) When he fled to the laden ship (37:140).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>To abstain, to deny or withhold, as in abstaining from a thing, or denying allegation of involvement in a crime.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>ءَالشَّیْ اَبَقَ He denied the thing.</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>ابدا</Text>
+<Status>DONE</Status>
+<Root>To remain or stay abode, dwell constantly or permanently, to render perpetual, time in an absolute sense, long time, endless, eternal or forever, unlimited or indivisible, everlasting. Also, unsocial or unfamiliar.</Root>
+<MeaningSimple>To dwell permanently. Forever. Eternal. Everlasting.</MeaningSimple>
+<Transliteration>Abada</Transliteration>
+	<Meaning>
+		<Definition>To remain in a place constantly, permanently or without quitting. اُبُوْد inf. noun and اَبَد substantive noun. It occurs in many verses of the Quran concerned with eschatology and to emphasize the eternal nature of God.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(4:57:11:13) They shall live in it for ever (4:57).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>اَبَد : Time in an absolute sense; a long time; unlimited time; an extended space of time that is indivisible. The Everlasting; the ancient without beginning.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>اَلاَبَدُ : The Everlasting God.</Example>
+		<Example>اَبَدِیَّۃ : The quality of being everlasting or of unlimited or indivisible duration.</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>ا</Text>
+<Status>DONE</Status>
+<MeaningSimple>First letter of alphabet. A particle of interrogation.</MeaningSimple>
+	<Meaning>
+		<Definition>أَلِف [Alif] is of two kinds, ليِنةٍ (soft) and مُتَحَرِّکَۃ (moving) or ھَمْزَۃ. The grammarians have other particular appellations for second kind of Alif ھَمْزَۃ, some of which are اَلِفُ الِاسْتِفْھَامِ :the Alif of interrogation.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(94:1:1:4) Did we not expand thy breast? (94:2).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>اَلِفُ التَّفَضّل: Denoting comparative or superlative degrees.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(17:21:7:11) The hereafter shall be greater in degrees (17:22).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>اَلِفُ السَّوِیَّۃِ: Denoting sameness or equality, or outcome is same.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(2:6:6:11) Whether thou warn them or warn them not, they will not believe (2:7)</Example>
+	</Meaning>
+</Word>
+<Word>
+<Text>ك</Text>
+<Status>NEW</Status>
+<MeaningSimple>21st letter of alphabet.</MeaningSimple>
+	<Meaning>
+		<Definition>ك prefixed to a noun is called the kaf of comparison.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(7:179:3:4) They are like animals (7:179)</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>It denotes cause.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(2:199:18:29) Remember Him because He guided you to the right path (2:199).</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>It is redundant.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(42:11:14:16) Nothing whatever is like unto Him (42:11)</Example>
+	</Meaning>
+	<Meaning>
+		<Definition>used in the sense of كَمَا  i.e. like, as, or   كَذٰلِكَ i.e. (such); the like thereof: As or just as, such as or like.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(2:200:6:7) As you remember your fathers (2:200).</Example>
+	</Meaning>
+</Word>

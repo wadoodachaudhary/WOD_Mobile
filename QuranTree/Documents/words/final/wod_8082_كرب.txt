@@ -1,0 +1,12 @@
+<Word>
+<Text>كرب</Text>
+<Status>NEW</Status>
+<Word_ID>8082</Word_ID>
+<MeaningSimple>Pain, Affliction, Distress.</MeaningSimple>
+	<Meaning>
+		<Definition>كَرَبَ [aor.  يَكْرُبُ inf. noun كَرْبًا ].  كَرَبَ الْحَبْلَ  : He twisted the rope. كَرَبَ الْقَيْدَ عَلَى الْمُقَيَّدِ  : He straitened the shackles upon the shackled. كَرَبَهُ الْغَمُّ  : The grief afflicted, distressed or oppressed him.  كَرْبٌ  : Grief or distress that affects the breath; anxiety or disquietude of the mind.</Definition>
+		<Reference>Ghulam Farid</Reference>
+		<Example>Token(21:77:10:12): From the great distress (21:77).</Example>
+	</Meaning>
+</Word>
+

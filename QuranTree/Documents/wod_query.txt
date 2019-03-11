@@ -1,0 +1,71 @@
+Select t.token_no,w.word,w.word_simple,s.word_id,w.transliteration,w.meaning_simple,t.Chapter_no,t.verse_no, t.token,w.*,s.*,t.* 
+from Token t,Segment s,Word w
+where t.Chapter_no=27 and t.verse_no=40
+and t.Chapter_no=s.Chapter_no and t.verse_no=s.verse_no and t.Token_no=s.Token_no and w.id=s.word_id
+order by s.token_no,s.segment_no
+
+Select * from Verse where Chapter_no=4 and verse_no=143
+Select * from Word where word_simple
+Select * from Word where id=111
+
+Update Word
+set meaning_simple = 'they used to, they were used to.'
+where id=111
+
+Select * from Segment where Chapter_no=33 and verse_no=52 order by token_no,segment_no
+Select word_id,count(*) from Meaning group by word_id
+
+
+
+Select t.Chapter_no,t.verse_no,t.token_no,w.word,w.word_simple,s.word_id, t.token,w.*,s.*,t.* 
+from Token t,Segment s,Word w
+where s.word_id=111 
+and t.Chapter_no=s.Chapter_no and t.verse_no=s.verse_no and t.Token_no=s.Token_no and w.id=s.word_id
+order by s.Chapter_no,s.verse_no,s.token_no,s.segment_no
+
+
+elect * from EmailPlan
+Select * from Meaning order by id
+
+Select * from Example
+
+
+Select * from MEaning
+
+
+Select T.chapter_no,T.verse_no,T.Token_no,S.segment_no,w.id,w.word,w.word_simple,token,token_simple from Token T,Segment S, Word w 
+where S.chapter_no=1 and S.verse_no=2 and S.chapter_no=T.chapter_no and T.verse_no=S.verse_no and S.token_no=T.token_no and W.id=S.word_id 
+Order by T.chapter_no,T.verse_no,T.token_no,segment_no
+
+Select * from token where chapter_no=1 and verse_no=2
+
+select (497+221+212+503+1841)/(62+12+20+102+305)
+select (62+12+20+102+305)=501
+select (497+221+212+503+1841)=3274
+Select 501.0/3724.0
+Select 694+4840+383+320+201=6438
+Select (117+415+65+129+61) =787
+Select 787.0 / 6438.0
+
+Select 1.0/6.0
+
+
+Select 0.16*0.16*0.16*0.16
+Select 5.0/6.0
+
+ 
+Select (1/6.0) * (1/6.0) * (1/6.0) * (1/6.0)
+
+Select 1- (1-0.83 * 1- 0.83 * 1-0.83 * 1-0.83)
+Select 1.0 - (0.83 *0.83*0.83*0.83)
+
+
+
+Atlantis: Select (62.0/497.0),(117.0/694.0)
+El Dorada: Select (12.0/221), 415.0/4840
+Hyperborea: Select 20/212.0,65.0/383
+Narnia: Select 102/503.0,129.0/320
+Valhalla: Select 305/1841.0,61.0/201
+
+
+
