@@ -1,0 +1,457 @@
+  NS4 = (document.layers) ? 1 : 0;
+  IE4 = (document.all) ? 1 : 0;
+  ver4 = (NS4 || IE4) ? 1 : 0;
+  if (ver4) {
+    with (document) {
+        write("<STYLE TYPE='text/css'>");
+        if (NS4) {
+            write(".parent {position:absolute; visibility:visible}");
+            write(".child {position:absolute; visibility:visible}");
+            write(".regular {position:absolute; visibility:visible}")
+        }
+        else {
+            write(".child {display:none}")
+        }
+        write("</STYLE>");
+    }
+  }
+  isExpanded = false;
+
+  function getIndex(el) {
+    ind = null;
+    for (i=0; i<document.layers.length; i++) {
+        whichEl = document.layers[i];
+        if (whichEl.id == el) {
+            ind = i;
+            break;
+        }
+    }
+    return ind;
+  }
+  function arrange() {
+    nextY = document.layers[firstInd].pageY + document.layers[firstInd].document.height;
+    for (i=firstInd+1; i<document.layers.length; i++) {
+        whichEl = document.layers[i];
+        if (whichEl.visibility != "hide") {
+            whichEl.pageY = nextY;
+            nextY += whichEl.document.height;
+        }
+    }
+  }
+
+  function initIt(){
+    if (!ver4) return;
+    if (NS4) {
+        for (i=0; i<document.layers.length; i++) {
+            whichEl = document.layers[i];
+            if (whichEl.id.indexOf("Child") != -1) whichEl.visibility = "hide";
+        }
+        arrange();
+    }
+    else {
+        divColl = document.all.tags("DIV");
+        for (i=0; i<divColl.length; i++) {
+            whichEl = divColl(i);
+            if (whichEl.className == "child") whichEl.style.display = "none";
+        }
+    }
+  }
+
+  function expandIt(el,folder_plus,folder_minus) {
+    if (!ver4) return;
+    if (IE4) {
+        whichEl = eval(el + "Child");
+        whichIm = event.srcElement;
+        if (whichEl.style.display == "none") {
+            whichEl.style.display = "block";
+            whichIm.src = folder_minus;
+        }
+        else {
+            whichEl.style.display = "none";
+            whichIm.src = folder_plus;
+        }
+    }
+    else {
+        whichEl = eval("document." + el + "Child");
+        whichIm = eval("document." + el + "Parent.document.images['imEx']");
+        if (whichEl.visibility == "hide") {
+            whichEl.visibility = "show";
+            whichIm.src = folder_minus;
+        }
+        else {
+            whichEl.visibility = "hide";
+            whichIm.src = folder_plus;
+        }
+        arrange();
+    }
+  }
+
+  function expandAll() {
+    if (!ver4) return;
+    newSrc = (isExpanded) ? "folder_plus.gif" : "folder_minus.gif";
+
+    if (NS4) {
+        document.images["imEx"].src = newSrc;
+        for (i=firstInd; i<document.layers.length; i++) {
+            whichEl = document.layers[i];
+            if (whichEl.id.indexOf("Parent") != -1) {
+                whichEl.document.images["imEx"].src = newSrc;
+            }
+            if (whichEl.id.indexOf("Child") != -1) {
+                whichEl.visibility = (isExpanded) ? "hide" : "show";
+            }
+        }
+
+        arrange();
+        if (isExpanded) scrollTo(0,document.layers[firstInd].pageY);
+    }
+    else {
+        divColl = document.all.tags("DIV");
+        for (i=0; i<divColl.length; i++) {
+            if (divColl(i).className == "child") {
+                divColl(i).style.display = (isExpanded) ? "none" : "block";
+            }
+        }
+        imColl = document.images.item("imEx");
+        for (i=0; i<imColl.length; i++) {
+            imColl(i).src = newSrc;
+        }
+    }
+
+    isExpanded = !isExpanded;
+  }
+ function setCheckboxValue(field1,field2) {
+ field2.value=field1.checked;
+ return true;
+ }
+
+ function setLabelButtonValue(field1,field2) {
+   field2.value='CLICKED';
+   for (i=0;i<document.forms.length;i++) {
+     document.forms[i].submit();
+   }
+   return true;
+ }
+
+ function submitAll() {
+   for (i=0;i<document.forms.length;i++) {
+     document.forms[i].submit();
+   }
+   //alert('Here');
+   return true;
+ }
+
+ function actionPopup(action, windowName, smallFlag) {
+ var args = null;
+ if (smallFlag == true) {
+   args="width=640,height=400,scrollbars=1,resizable=1";
+ }
+ else {
+   args="width=800,height=600,scrollbars=1,resizable=1";
+ }
+ var win = window.open(action, windowName, args);
+ win.focus();}
+ function moveItem(from, to) {
+ var docForm = getDocForm();
+ var fromCtrl = docForm[from];
+ var toCtrl = docForm[to];
+ if (!exists(fromCtrl) || !exists(toCtrl)) {
+     alert('Select control does not exist in moveItem');
+     return;
+ }
+ moveSelectedOptions(fromCtrl, toCtrl);
+ }
+ function moveSelectedOptions(from,to,fromVar,toVar) {
+   for (var i=0; i<from.options.length; i++) {
+     var o = from.options[i];
+     if (o.selected) {
+ 	    to.options[to.options.length] = new Option( o.text, o.value, false, false);
+ 	  }
+   }
+   for (var i=(from.options.length-1); i>=0; i--) {
+     var o = from.options[i];
+     if (o.selected) {
+ 	    from.options[i] = null;
+ 	  }
+   }
+ 	from.selectedIndex = -1;
+   to.selectedIndex = -1;
+    fromVar.value = '' ;
+   for (var i=0; i<from.options.length; i++) {
+      var o = from.options[i];
+ 	   if (o!=null) {
+        if (o.text!=null || o.text!='')
+          if (fromVar.value == '') fromVar.value = o.text; else fromVar.value = fromVar.value+','+o.text;
+      }
+    }
+    toVar.value = '' ;
+   for (var i=0; i<to.options.length; i++) {
+      var o = to.options[i];
+ 	   if (o!=null) {
+        if (o.text!=null || o.text!='')
+          if (toVar.value == '') toVar.value = o.text; else toVar.value = toVar.value+','+o.text;
+      }
+    }
+}
+function submitmulti(action) {
+ document.forms[0].encoding='multipart/form-data';
+ document.forms[0].submit();
+ return true;
+}
+
+function getElementHeight(elementID, offset) {
+ x = document.getElementById(elementID);
+ if (x==null) return 0; else return x.offsetHeight+offset;
+}
+
+function getElementWidth(elementID, offset) {
+ x = document.getElementById(elementID);
+ if (x==null) return 0; return x.offsetWidth+offset;
+
+}
+
+var dragObj = new Object();
+dragObj.zIndex = 0;
+
+function dragStart(event, el) {
+  var el;
+  var x, y;
+  // If an element id was given, find it. Otherwise use the element being
+  // clicked on.
+  if (el)
+    dragObj.elNode = el;
+  else {
+    dragObj.elNode = window.event.srcElement;
+    // If this is a text node, use its parent element.
+    if (dragObj.elNode.nodeType == 3)
+      dragObj.elNode = dragObj.elNode.parentNode;
+  }
+
+  // Get cursor position with respect to the page.
+    x = window.event.clientX + document.documentElement.scrollLeft
+      + document.body.scrollLeft;
+    y = window.event.clientY + document.documentElement.scrollTop
+      + document.body.scrollTop;
+
+  // Save starting positions of cursor and element.
+  dragObj.cursorStartX = x;
+  dragObj.cursorStartY = y;
+  dragObj.elStartLeft  = parseInt(dragObj.elNode.style.left, 10);
+  dragObj.elStartTop   = parseInt(dragObj.elNode.style.top,  10);
+
+  if (isNaN(dragObj.elStartLeft)) dragObj.elStartLeft = 0;
+  if (isNaN(dragObj.elStartTop))  dragObj.elStartTop  = 0;
+
+  // Update element's z-index.
+  dragObj.elNode.style.zIndex = ++dragObj.zIndex;
+
+  // Capture mousemove and mouseup events on the page.
+    document.attachEvent("onmousemove", dragGo);
+    document.attachEvent("onmouseup",   dragStop);
+    window.event.cancelBubble = true;
+    window.event.returnValue = false;
+}
+
+function dragGo(event) {
+  var x, y;
+  // Get cursor position with respect to the page.
+    x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+    y = window.event.clientY + document.documentElement.scrollTop  + document.body.scrollTop;
+
+  // Move drag element by the same amount the cursor has moved.
+
+  dragObj.elNode.style.left = (dragObj.elStartLeft + x - dragObj.cursorStartX) + "px";
+  dragObj.elNode.style.top  = (dragObj.elStartTop  + y - dragObj.cursorStartY) + "px";
+  bounds.x.value=dragObj.elNode.style.left;
+  bounds.y.value=dragObj.elNode.style.top;
+  window.event.cancelBubble = true;
+  window.event.returnValue = false;
+}
+
+function dragStop(event) {
+  // Stop capturing mousemove and mouseup events.
+
+    document.detachEvent("onmousemove", dragGo);
+    document.detachEvent("onmouseup",   dragStop);
+}
+
+
+////////////////////////////////////////////
+//  RESIZE CODE
+////////////////////////////////////////////
+var theobject = null; //This gets a value as soon as a resize start
+var bounds=null;
+function resizeObject() {
+	this.el        = null; //pointer to the object
+	this.dir    = "";      //type of current resize (n, s, e, w, ne, nw, se, sw)
+	this.grabx = null;     //Some useful values
+	this.graby = null;
+	this.width = null;
+	this.height = null;
+	this.left = null;
+	this.top = null;
+  this.e2=null;
+
+}
+
+function createBounds(x,y,h,w) {
+	this.x = null; //pointer to the object
+	this.y = null; //pointer to the object
+	this.w = null; //pointer to the object
+	this.h=null;
+
+}
+
+function doDown(el,e2,x,y,w,h) {
+	if (el == null) {
+		theobject = null;
+		return;
+	}
+
+      bounds = new createBounds();
+      bounds.x=x;
+      bounds.y=y;
+      bounds.w=w;
+      bounds.h=h;
+      var oParent = el.offsetParent;
+      var iOffsetTop = oParent.offsetTop;
+      var iClientHeight = oParent.clientHeight;
+
+      if ((window.event.clientY-( iOffsetTop +el.offsetTop)) <(el.offsetHeight/2)) {
+
+	  dragStart(event, el);
+	  //x.value=el.style.left;
+  	  //y.value=el.style.top ;
+          if (1!=1) {
+		//alert(x.name+":"+x.value+ " "+y.name+":"+y.value);
+		aTitle = x.name+":"+x.value+ " "+y.name+":"+y.value;
+		x.value=x.value+"";
+		y.value=y.value+"";
+		//alert(aTitle);
+
+	  }
+
+
+
+	}
+      else {
+
+	var dir = "se"
+	theobject = new resizeObject();
+	theobject.el = el;
+  theobject.e2=e2;
+	theobject.dir = dir;
+	theobject.grabx = window.event.clientX;
+	theobject.graby = window.event.clientY;
+	theobject.width = el.offsetWidth;
+	theobject.height = el.offsetHeight;
+	theobject.left = el.offsetLeft;
+	theobject.top = el.offsetTop;
+
+	//set the min Height and Width
+	//if (!theobject.el.minHeight){
+	//	theobject.el.minHeight = el.offsetHeight;
+	//	theobject.el.minWidth = el.offsetWidth;
+	//}
+
+
+	window.event.returnValue = false;
+	window.event.cancelBubble = true;
+     }
+}
+
+function doUp() {
+	if (theobject != null) {
+	//resize the imag
+            //alert(theobject.el.offsetWidth+","+theobject.el.offsetHeight+"["+theobject.el.offsetLeft+","+theobject.el.offsetTop+"]");
+		theobject.e2.width=theobject.el.offsetWidth;
+		theobject.e2.height=theobject.el.offsetHeight;
+                bounds.w.value=theobject.e2.width;
+                bounds.h.value=theobject.e2.height;
+		theobject = null;
+
+	}
+}
+
+function doDragDown(el,e2,x,y,w,h) {
+	if (el == null) {
+		theobject = null;
+		return;
+	}
+  bounds = new createBounds();
+  bounds.x=x;
+  bounds.y=y;
+  bounds.w=w;
+  bounds.h=h;
+  var oParent = el.offsetParent;
+  var iOffsetTop = oParent.offsetTop;
+  var iClientHeight = oParent.clientHeight;
+  dragStart(event, el);
+  aTitle = x.name+":"+x.value+ " "+y.name+":"+y.value;
+  x.value=x.value+"";
+  y.value=y.value+"";
+
+}
+
+
+function doDragUp() {
+	if (theobject != null) {
+
+    theobject = null;
+  }
+  submitAll();
+}
+
+function doDragMove() {
+	var xPos, yPos, xMin, yMin;
+	xMin = 10; //The smallest width possible
+	yMin = 10; //             height
+	var dir = "se"
+	if (theobject != null) {
+		dir = theobject.dir
+		if (dir.indexOf("w") != -1) {
+			theobject.el.style.left = Math.min(theobject.left + window.event.clientX - theobject.grabx, theobject.left + theobject.width - xMin);
+		}
+		if (dir.indexOf("n") != -1) {
+			theobject.el.style.top = Math.min(theobject.top + window.event.clientY - theobject.graby, theobject.top + theobject.height - yMin);
+		}
+		window.event.returnValue = false;
+		window.event.cancelBubble = true;
+	}
+}
+
+function doMove() {
+	//var el, str
+	var xPos, yPos, xMin, yMin;
+	xMin = 10; //The smallest width possible
+	yMin = 10; //             height
+	var dir = "se"
+	//Dragging for resize starts here
+	if(theobject != null) {
+		dir = theobject.dir
+		if (dir.indexOf("e") != -1)
+			theobject.el.style.width = Math.max(xMin, theobject.width + window.event.clientX - theobject.grabx);
+
+		if (dir.indexOf("s") != -1)
+			theobject.el.style.height = Math.max(yMin, theobject.height + window.event.clientY - theobject.graby);
+
+		if (dir.indexOf("w") != -1) {
+			theobject.el.style.left = Math.min(theobject.left + window.event.clientX - theobject.grabx, theobject.left + theobject.width - xMin);
+			theobject.el.style.width = Math.max(xMin, theobject.width - window.event.clientX + theobject.grabx);
+		}
+		if (dir.indexOf("n") != -1) {
+			theobject.el.style.top = Math.min(theobject.top + window.event.clientY - theobject.graby, theobject.top + theobject.height - yMin);
+			theobject.el.style.height = Math.max(yMin, theobject.height - window.event.clientY + theobject.graby);
+		}
+
+		//if (parseInt(theobject.el.style.height) < theobject.el.minHeight ) theobject.el.style.height = theobject.el.minHeight;
+		//if (parseInt(theobject.el.style.width) < theobject.el.minWidth ) theobject.el.style.width = theobject.el.minWidth;
+
+
+		window.event.returnValue = false;
+		window.event.cancelBubble = true;
+	}
+}
+
+
+  onload = initIt;
