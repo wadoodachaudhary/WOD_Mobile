@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Definition" representedClassName="Definition" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" defaultDateTimeInterval="421948800" defaultValueString="NOW" syncable="YES"/>
+        <attribute name="meaning" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="definesWord" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Word" inverseName="definitions" inverseEntity="Word" syncable="YES"/>
+        <relationship name="examples" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Example" inverseName="exampleOfDefinition" inverseEntity="Example" syncable="YES"/>
+        <relationship name="inLanguage" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Language" inverseName="containsDefinitions" inverseEntity="Language" syncable="YES"/>
+    </entity>
+    <entity name="Example" representedClassName="Example" syncable="YES">
+        <attribute name="example" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exampleOfDefinition" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Definition" inverseName="examples" inverseEntity="Definition" syncable="YES"/>
+    </entity>
+    <entity name="Language" representedClassName="Language" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="containsDefinitions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Definition" inverseName="inLanguage" inverseEntity="Definition" syncable="YES"/>
+    </entity>
+    <entity name="Subscriber" representedClassName="Subscriber" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subscriberid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Verse" representedClassName="Verse" syncable="YES">
+        <attribute name="chapterno" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation_split_word" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transliteration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verseno" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="has" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Word" inverseName="verses" inverseEntity="Word" syncable="YES"/>
+    </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES">
+        <attribute name="audiofile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lemma" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relatedword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="root" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transliteration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="versecount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wordsimple" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="definitions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Definition" inverseName="definesWord" inverseEntity="Definition" syncable="YES"/>
+        <relationship name="relatedWords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Word" inverseName="relatedWords" inverseEntity="Word" syncable="YES"/>
+        <relationship name="verses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Verse" inverseName="has" inverseEntity="Verse" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Definition" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Example" positionX="-432" positionY="-72" width="128" height="90"/>
+        <element name="Language" positionX="-1008" positionY="-333" width="128" height="90"/>
+        <element name="Subscriber" positionX="-495" positionY="243" width="128" height="90"/>
+        <element name="Verse" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="Word" positionX="-567" positionY="-369" width="128" height="255"/>
+    </elements>
+</model>
