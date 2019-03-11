@@ -1,0 +1,34 @@
+ 
+<br>
+<html>
+<head>
+<title>(CS634 - Project MapReduce Random Forests)</title>
+</head>
+<script src='/WEB-INF/js/jquery.js' language='javascript' type='text/javascript'></script>
+<script src='/WEB-INF/js/jstree.min.js' language='javascript' type='text/javascript'></script>
+<script>
+$(function () {
+  $('#jstree').jstree();
+ });
+ </script>
+<body bgcolor="white">
+<h3>(CS634 - Project MapReduce Random Forests)</h3>
+<P>
+<form action="CS634MapReduceRandomForests" method=POST>
+<div id='jstree'>
+<ul>
+<ul><strong>Tree1 Error Rate (0.5)</strong>	</ul><ul><li>Phone_Usage=75..150<ul><li> ||=>YES Change_Plan=Yes<ul></ul></li><li>Phone_Usage=>150<ul><li>Current_Carrier=MCI<ul><li> ||=>YES Change_Plan=Yes<ul></ul></li><li>||=>OTHERWISE Change_Plan=No<ul></ul></li></ul></li><li>||=>OTHERWISE Change_Plan=Yes<ul></ul></li></ul></li></ul></li></ul><br><br>
+<ul>
+<strong>Tree2 Error Rate (0.75)	</strong></ul><ul><li>Phone_Usage=75..150<ul><li> ||=>YES Change_Plan=Yes<ul></ul></li><li>Living_Palace=Town<ul><li>Income_Source=1<ul><li> ||=>YES Change_Plan=No<ul></ul></li><li>||=>OTHERWISE Change_Plan=Yes<ul></ul></li></ul></li><li>||=>OTHERWISE Change_Plan=Yes<ul></ul></li></ul></li></ul></li></ul><br><br>
+<ul>
+<strong>Tree3 Error Rate (0.5)</strong>	</ul><ul><li>Phone_Usage=75..150<ul><li> ||=>YES Change_Plan=Yes<ul></ul></li><li>Living_Palace=Town<ul><li>Current_Carrier=MCI<ul><li> ||=>YES Change_Plan=Yes<ul></ul></li><li>||=>OTHERWISE Change_Plan=No<ul></ul></li></ul></li><li>||=>OTHERWISE Change_Plan=Yes<ul></ul></li></ul></li></ul></li></ul>
+</ul>
+</div>
+<div id='buttonsBuild' style='vertical-align: left'>
+<button name='Back' value='Back' type='submit'>Go Back</button>
+<button name='BuildRandomForest' value='0' type='submit'>Show MapReduce Log</button>
+<button name='BuildRandomForest' value='2' type='submit'>Run MapReduce Instinet Dataset(100000 rows</button>
+</div>
+</form>
+<p><a href="</body>
+</html>

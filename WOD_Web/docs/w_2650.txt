@@ -1,0 +1,2 @@
+  Word(2650)
+ {It is used to denote uncertainty or large number. [Token(3:147:1:3) And many a Prophet or how many a Prophet (3:147)]}

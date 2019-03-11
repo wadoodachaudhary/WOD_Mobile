@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+ 
+ <servlet>
+    <servlet-name>word</servlet-name>
+    <servlet-class>com.jtools.javawebdatafront.JWebDataWindowServer</servlet-class>
+    <init-param>
+     <param-name>PATH</param-name>
+     <param-value>c:\\tomcat\\webapps\\assignment</param-value>
+    </init-param>
+    <init-param>
+     <param-name>DEF-PATH</param-name>
+     <param-value>c:\\tomcat\\webapps\\charts\WEB-INF</param-value>
+    </init-param>
+    <init-param>
+     <param-name>DB-PATH</param-name>
+     <param-value>c:\\tomcat\\webapps\\charts\database</param-value>
+    </init-param>
+    <init-param>
+     <param-name>EXCEL-DIR</param-name>
+     <param-value>excel</param-value>
+    </init-param>
+    <init-param>
+     <param-name>SERVER-URL</param-name>
+     <param-value>Workflow</param-value>
+    </init-param>
+    <init-param>
+      <param-name>Base-URL</param-name> 
+	<param-value>http://localhost:8080/wod/</param-value> 
+    </init-param> 
+    <init-param>
+      <param-name>Data-Source</param-name> 
+	<param-value>Workflow</param-value> 
+    </init-param>
+    <init-param>
+      <param-name>Database-Config</param-name> 
+	<param-value>analyzer.cfg</param-value> 
+    </init-param>  
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>word</servlet-name>
+    <url-pattern>/word</url-pattern>
+  </servlet-mapping>
+    <session-config>
+    <session-timeout>180</session-timeout>
+  </session-config>
+
+
+</web-app>
+
+
+
+

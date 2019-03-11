@@ -1,0 +1,6 @@
+ Word:كاس
+Root: A cup for drinking if there is a drink in it. It can also refer to the drink itself, e.g. wine. If there is no beverage in it, the drinking cup is called Qadehun from the root: Qaf-Dal-Ha.
+Transliteration:kasin
+MeaningSimple:Cup. Goblet.
+Meaning: كَاْسٌ [plural كُؤُوْسٌ ] : A drinking cup; a cup full of wine; a goblet: 
+Example:Token(37:46:3:5): A full cup from a flowing fountain (37: 46).

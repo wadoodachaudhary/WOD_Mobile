@@ -1,0 +1,16 @@
+﻿ Word:كره
+Root:
+Transliteration:kariha
+MeaningSimple:Hateful dislike. Compulsion.
+Meaning:كَرِهَ aor. يَكْرَهُ  inf. noun  كُرْهًا and كَرْهًا   كَرِهِهٗ  : He did not desire it, disapproved it, was displeased with it, hated him or it. Contr. of حَبَّهٗ وَ اَحَبَّهٗ   .
+Example:Token(61:10:12:14) : Though the idolaters hate it (61:10).
+Example:Token(49:8:21:23) : He (God) has made disbelief hateful to you (49:8).
+Example: اَكْرَهْتُهٗ عَلٰى كَذَا  : I compelled him to do such a thing.
+Example:Token(20:74:7:9)      : Which thou didst compel us to use (20:74).
+Example:Token(2:217:4:6) : And it is repugnant to you  (2:217).
+Meaning: Unwilling.  كَارِهَةٌ  (act. pass.).  كَارِهِيْنَ  and  كَارِهُوْنٌ  plural of كَارِهٌ  مَكْرُوْهٌ  pass. part.
+Example:Token(3:84:11:12): Willingly or unwillingly (3:84).
+Meaning:Hateful
+Example:Token(17:39:6:7) from اَكْرَهَ and means, hateful (17:39).
+Meaning: اِكْرَاهٌ  inf.noun from اَكْرَهَ. Compulsion.
+Example:Token(2:257:1:4)  meaning there is no compulsion in religion (2:257).

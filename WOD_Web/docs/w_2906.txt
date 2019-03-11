@@ -1,0 +1,16 @@
+﻿Word:كثر
+Root:To surpass in number or quantity, increase, multiply, something that happens often; many, numerous.
+Transliteration:katheer
+MeaningSimple:Numerous, copious.
+Meaning: كَثُرَ     aor.  يَكْثُرُ and  يَكْثِرُ inf. noun كَثْرَةٌ  : It was or became much,copious, many, numerous; it multiplied. كَثَرُوْا عَلَيْهِ فَغَلَبُوْهُ  : They multiplied against him and overcame him.
+Example:Token(4:8:13:17)   Whether it be little or much (4:8).
+Example:Token(7:87:1:3)  فَكَثَّرَكُمْ   : So He multiplied you (7:87).
+Example:Token(89:13:1:2)  And they wrought much  corruption therein (89:13).
+Meaning:تَكَاثَرُوْا  : They contended one with another for superiority in number. اَلتَّكَاثُرُ  : Signifies the contending together for superiority in amount or number of property and children and men (102:2).
+Example:Token(102:2:1:2) 
+Meaning: اِسْتَكْثَرَ مِنَ الشَّىْءِ  : He desired or wished or sought for much of a thing; he reckoned it much or many.
+Example:Token(7:189:1:3)  He should have secured abundance of good (7:189).
+Meaning: كَثْرَةٌ  : Abundance or numerousness. 
+Example: كَثِيْرٌ  : Many or much. (2:110)
+Meaning: اَكْثَرَ  : Comparative degree of كَثِيْرٌ as  كَوْثَرٌ  : A lord or master; abounding in good; a man possessing much good and who gives much (108:2).
+Example:Token(108:2:1:3)

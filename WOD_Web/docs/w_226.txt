@@ -1,0 +1,6 @@
+﻿Word:كن
+Root:To be, exist, happen, occur, take place, become, be such or so.
+Transliteration:kun
+MeaningSimple:im. be
+Meaning: كَتَمَ aor.  يَكْتُمُ  inf noun كِتْمَانًا .  كَتَمَ الشَّىْءَ   : He concealed or hid the thing.
+Example:Token(2:73:8:10)    j  i  j   : What you concealed (2:73).

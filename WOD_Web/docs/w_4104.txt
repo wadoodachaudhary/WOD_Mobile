@@ -1,0 +1,36 @@
+ Word:كبر
+Root:To be hard, become hard, be grievous, grow up, be great. To exceed in age, become stout and tall, to grow big or become great, illustrious. A momentous affair.
+Transliteration:kabura
+MeaningSimple:difficult
+Meaning: aor.  يَكْبُرُ  inf. noun كِبَرٌ  He became great or large in body, or in years or age; (he attained to puberty) and in estimation or rank or dignity. 
+Example:كَبُرَ الْاَمْرُ  : The affair was or became of great mome
+Example:Token(61:4:1:4)  It is most hateful in the sight of God (61:4).
+Meaning:To become hard. Very difficult. Severe, grievous, distressing. 
+Example:كَبُرَ عَلَيْهِ الْاَمْرُ  : The affair became difficult to him
+Example:Token(6:36:3:5) Their aversion is grievous to thee or hard upon thee (6:36).
+Example: وَبِدَارًا اَنْ يَّكْبَرُوْا  : In haste against their growing up
+Meaning: كَبِرَ (aor. يَكْبَرُ ) : To advance in age; to attain to full growth or adolescence or puberty.  كِبَرٌ 
+Example:Token(19:9:10:14) I have reached extreme old age (19:9)
+Meaning:Greatness; haughtiness; pride; insolence; unbelief.
+Example:Token(18:6:8:9) كَبُرَتْ كَلِمَةً  :  Grievous is the word (18:6).
+Example:Token(40:57:10:14)  There is nothing in their breasts but a feeling of greatness or pride (40:57)
+Meaning:Main part of anything.
+Example:Token(24:12:22:24) Who took upon himself the main part thereof (24:12).
+Meaning: كَبِيْرٌ  :  Great in body, age, estimation, rank or dignity or nobility.
+Example:Token(2:218:8:10) Fighting in it is a great sin (2:218).
+Example:Token(28:24:25:27) Our father is a very old man (28:24).
+Example:Token(12:81:6:7) Their oldest or their leader said (12:81).
+Meaning: كُبَرَاءَ  (plural). اَلْكَبِيْرُ   A divine attribute or epithet
+Example:Token(22:63:14:17) اَلْكَبِيْرُ is one of Allah's name (22:63).
+Meaning:An abominable sin or crime or offense.
+Example:Token(4:32:2:3)   كَبَائِرُ  : More grievous sin (4:32).
+Meaning: كُبَّارٌ  is intensive form of كَبِيْرٌ 
+Example:Token(71:23:2:3)  A mighty plan (71:23).
+Meaning: كِبْرِيَاءُ  Is synonymous with كِبْرٌ. Nobility, greatness, majesty
+Example:Token(45:38:1:2)  His is the Majesty (45:38).
+Meaning: اِكْبَرُ is superlative degree meaning more or most great. اَلْكُبْرٰى  is feminine of  اَكْبَرُ and its plural is كُبَرُ 
+Example:Token(79:35:3:4)  Great disaster (79:35).
+Example:Token(6:124) اَكَابِرَ  (plural of اَكْبَرُ ) (6:124).
+Example:Token(74:36:1:3)   It is one of the greatest calamities (74:36).
+Meaning: كَبَّرَ  (inf. noun تَكْبِيْرٌ ) :  To magnify or be honored
+Example:Token(17:112:20:21)  And extol His Glory with all glorification (17:112).

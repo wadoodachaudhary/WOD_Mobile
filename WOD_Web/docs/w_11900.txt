@@ -1,0 +1,6 @@
+﻿Word:كادح
+Root:To toil, exert, make every effort to carry out a thing, labor hard and actively, toil hard, labouring, laboriously, one who labours.
+Transliteration:kadih
+MeaningSimple:To toil, work hard towards a goal.
+Meaning: كَدَحَ aor.  يَكْدَحُ  inf noun كَدْحًا . He worked, laboured employed himself actively; he strove, exerted and wearied himself in work; he toiled hard towards his lord. كَادِحٌ  : Act. part.
+Example:Token(84:7:3:6) (84:7).

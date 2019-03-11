@@ -1,0 +1,6 @@
+﻿Word:تكتم
+Root:To conceal, to restrain anger, hide, hold back evidence.
+Transliteration:taktum
+MeaningSimple:To conceal, hide.
+Meaning: كَتَمَ aor.  يَكْتُمُ  inf noun كِتْمَانًا .  كَتَمَ الشَّىْءَ   : He concealed or hid the thing.
+Example:Token(2:73:7:10)    j  i  j   : What you concealed (2:73).

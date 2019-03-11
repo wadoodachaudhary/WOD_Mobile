@@ -1,0 +1,7 @@
+ Word:عبثا
+Root:To play sport in a frivolous manner, amused by trifles, in vain or sport or play, nonsense, useless.
+Transliteration:EabavFA
+MeaningSimple:In vain, idle play
+Meaning:عَبَثَ aor.  يَعْبِثُ inf. noun عَبْثٌ    عَبَثَ الشَّىْءَ بِالشَّىْءِ: He mixed or mingled one thing with another. عَبِثَ  (aor.  يَعْبَثُ inf. noun عَبَثٌ  ) : He played or sported or amused himself; he mingled together unprofitable actions; he did what was useless and unprofitable.  فَعَلَ ذٰلِكَ عَبَثًا : He did that profitlessly; he did what was of no use to him.   عَبَثَ بِهِ الدَّهْرُ : Fortune made sport with him.
+Example:Token(23:116:2:4) That We have created you in vain or without purpose  (23:116).
+Example:Token(26:129:1:5) Do you build on every height a monument seeking vain glory? (You do a useless thing) (26:129).
