@@ -1,4 +1,4 @@
-# Tarteel Machine Learning 
+# Quranic recitation Machine Learning 
 
 This repo is designed to house code related to Tarteel machine learning related tasks. :microscope:
 
@@ -19,10 +19,8 @@ If you found this repo helpful, please keep it's contributors in your duaa :rais
 
 ### Prerequisites 
 
-We use Python 3.7 for our development.
-However, any Python above 3.6 should work.
-For audio pre-processing, we use `ffmpeg` and `ffprobe`.
-Make sure you install these using your system package manager.
+Python 3.7
+`ffmpeg` and `ffprobe`.
 
 **Mac OS**
 
@@ -59,11 +57,10 @@ This repo is structured as follows:
 
 Check out the [wiki] for instructions on how to download and pre-process the data, as well as how to start training models.
 
-## Contributing :100:
-Check out [`CONTRIBUTING.md`](CONTRIBUTING.md) to start contributing to Tarteel-ML!
+
 
 [tarteel.io]: https://www.tarteel.io
-[wiki]: https://github.com/Tarteel-io/Tarteel-ML/wiki
+https://www.alfurqan.us
 [`generate_csv_deepspeech.py`]: generate_csv_deepspeech.py
 [`create_train_test_split.py`]: create_train_test_split.py
 [`download.py`]: download.py
