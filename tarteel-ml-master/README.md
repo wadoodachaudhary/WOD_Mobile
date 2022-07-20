@@ -1,6 +1,7 @@
-# Tarteel Machine Learning 
+# Recitation
 
-This repo is designed to house code related to Tarteel machine learning related tasks. :microscope:
+This repo is designed to house code related to recitation matching related tasks. 
+
 
 Specifically, things like:
 
@@ -9,13 +10,6 @@ Specifically, things like:
 * Model training, validation, and and iteration :repeat:
 * Demos :rocket:
 
-Code here is mostly experimental so check back regularly for updates.
-
-If you found this repo helpful, please keep it's contributors in your duaa :raised_hands:.
-
-:fire: To see our technology live in action, visit [tarteel.io]. :fire:
-
-## Getting Started :beginner:
 
 ### Prerequisites 
 
@@ -55,15 +49,3 @@ This repo is structured as follows:
 * `generate_alphabet|vocabulary.py`: Generate all unique letters/ayahs in the Quran in a text file.
 * [`generate_csv_deepspeech.py`]: Create a CSV file for training with DeepSpeech.
 
-### Wiki :scroll:
-
-Check out the [wiki] for instructions on how to download and pre-process the data, as well as how to start training models.
-
-## Contributing :100:
-Check out [`CONTRIBUTING.md`](CONTRIBUTING.md) to start contributing to Tarteel-ML!
-
-[tarteel.io]: https://www.tarteel.io
-[wiki]: https://github.com/Tarteel-io/Tarteel-ML/wiki
-[`generate_csv_deepspeech.py`]: generate_csv_deepspeech.py
-[`create_train_test_split.py`]: create_train_test_split.py
-[`download.py`]: download.py
