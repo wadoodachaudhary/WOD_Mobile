@@ -8,7 +8,7 @@ Specifically, things like:
 * Model selection :white_check_mark:
 * Preprocessing of data :sound:
 * Model training, validation, and and iteration :repeat:
-* Demos :rocket:
+
 
 
 ### Prerequisites 
